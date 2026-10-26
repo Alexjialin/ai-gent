@@ -1,0 +1,31 @@
+# 本地环境与凭据
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+credentials.json
+secrets/
+
+# 临时文件与日志
+*.log
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# 常见依赖、缓存与构建产物
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+.coverage
+dist/
+build/
